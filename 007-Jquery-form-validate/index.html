@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,700" rel="stylesheet">
+<!-- Custom Theme files -->
+<link href="validation.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<body>
+<div class="main">
+		<div class="mycontainer">
+<!--form-stars-here-->
+		<div class="main-form">
+			<h2>welcome to validation</h2>
+			<form action="#">
+				<div class="inputs">
+					<div class="form-group">
+						<label for="usr">Username:</label>
+						<input type="email" name="Username" placeholder="Your Email" required id="usr"/>
+					</div>
+					<div class="icons">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="inputs">
+					<div class="form-group">
+						<label for="pass">Password:</label>
+						<input type="password" name="Password" placeholder="Password" required id="pass"/>
+					</div>
+					<div class="icons">
+						<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+					</div>
+				</div>
+				
+				<div class="submitbtn">
+					<button type="submit" value="Login">login</button>
+				</div>
+			</form>
+		</div>
+<!--//form-ends-here-->
+</div></div><!-- </div> -->
+
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/validation.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(function(){
+      $('form').change(function() {$(this).validateForm();}).submit(function(e)
+      {
+        $(this).validateForm();
+        //e.preventDefault();
+      });
+    });
+    </script>
+</body>
+</html>
