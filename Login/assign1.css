@@ -1,0 +1,125 @@
+/*   ------------------------------------------Reset CSS ------------------------------------------------------  */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*   ------------------------------------------End of Reset CSS ------------------------------------------------------  */
+
+
+/*   ------------------------------------------ custom CSS ------------------------------------------------------  */
+
+body{
+	background-color : #263d48;
+	font-family: 'SourceSansPro' , sans-serif;
+}
+.login-form {
+    margin: 70px auto;
+    max-width: 350px;
+    border-radius: 1%;
+    background-color: #fcfcfc;
+    border-top: 5px solid #21c9a6;
+    box-shadow: 0px 2px 3px 0 rgba(24, 24, 25, 0.15);
+}
+.SIGN-IN {
+  margin: 60px auto;
+  font-size: x-large;
+  font-weight: 600;
+  line-height: 0.53;
+  color: #263d48;
+}
+.name{
+	  margin: auto;
+	  margin-bottom: 8%;
+  	border-bottom: 1px solid #c4c4c4;
+}
+label{visibility: hidden; width: 0;}
+.fa{background-color: transparent; border: none;}
+.male{
+    color: #21c9a6;
+}
+.key{
+    color: #bcc9c6;
+}
+input{
+    padding-left: 20px;
+    color: #263d48;
+    background-color: #fcfcfc;
+    border: none;
+    box-shadow: none;
+}
+input:hover,input:focus, .Rounded-Rectangle-1:hover{outline: none; border:none;} 
+.Rounded-Rectangle-1 {
+    font-size: 18px;
+    color: #fcfcfc;
+    width: 75%;
+    border-radius: 2px;
+    background-color: #21c9a6;
+    box-shadow: 0px 2px 3px 0 rgba(24, 24, 25, 0.15);
+    text-transform: uppercase;
+}
+.Forgot-password a{
+  text-decoration:none;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #bcc9c6;
+  border-bottom: 1px solid #bcc9c6;
+}
+.create-new {
+  margin-top: 50px;
+  font-size: 12px;
+  color: #bcc9c6;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.create-new-1 a{
+  color: #21c9a6;
+  text-decoration:none;
+  border-bottom: 1px solid #21c9a6;
+}
+
+
+/*   ------------------------------------------ End of custom CSS ------------------------------------------------------  */
