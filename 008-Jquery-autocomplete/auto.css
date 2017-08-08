@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Coda');
+
+body{
+ background: url('images/USA-auto.jpg') no-repeat fixed center;
+ background-size: cover;
+ font-family: 'Coda', cursive;
+}
+.mycontainer{margin-top: 10%;}
+.custom-container{
+ border-radius: 10px;
+ margin: 0 auto;
+ padding: 0px;
+}
+
+.header-main{
+ color: white;
+ text-transform: uppercase;
+}
+
+input{
+ border: none;
+ background-color: white;
+ margin-top: 20px;
+ width: 40% !important;
+ margin: auto;
+}
+.ui-widget{
+ margin: 0px;
+}
+.ui-helper-hidden-accessible{
+  /*border: 2px dotted blue;
+  margin:100px;
+  color: white;
+  text-align: center;*/
+  display: none;
+}
+
+.ui-menu{
+ background-color: lightskyblue;
+ list-style: none;
+ width: 30px;
+ padding-left: 10px;
+}
+
+.ui-menu:hover{
+ cursor: pointer;
+}
+#ui-id-1{
+  border-radius: 3px;
+	padding: 5px 15px;
+}
+
+.ui-state-active{
+   color: black;
+   font-weight: bold;
+   border-top: 3px solid blue;
+   border-bottom: 3px solid blue;
+   text-align: center; 
+}
