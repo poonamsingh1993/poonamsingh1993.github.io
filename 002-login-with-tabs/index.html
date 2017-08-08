@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assign2.css">
+</head>
+
+
+<body>
+<div>
+<!-- tab section -->
+  <form class="form">
+    <ul class="tab-group">
+      <li class="tab active"><a data-toggle="tab" href="#signup">Sign Up</a></li>
+      <li class="tab"><a data-toggle="tab" href="#login">Log In</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="signup" class="tab-pane fade in active">
+        <!-- Signup Section-->
+        <div class="sign text-center">Sign Up For Free</div>
+          <form class="signup-form">
+            <div class="row">
+              <div class="col-sm-6 ">
+                <div class="form-group ">
+                  <label for="firstname">First Name</label>
+                  <input id="firstname" name="firstname" class="form-control input-group-lg" required type="text" placeholder="First Name*">
+                </div>
+              </div>
+              <div class="col-sm-6 ">
+                <div class="form-group">
+                  <label for="lastname">Last Name</label>
+                  <input id="lastname" name="lastname" class="form-control input-group-lg" required type="text" placeholder="Last name*">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="mail" class="form-control" required placeholder="Email Address*"/>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control" required placeholder="Set A Password*"/>
+            </div>
+            <button type="submit" class="logbtn">GET STARTED</button>
+          </form>
+        </div>
+        <!-- End of Signup Section -->
+
+        <!-- Login Section -->
+        <div id="login" class="tab-pane fade in text-center">
+          <div class="sign">Welcome</div>
+            <form action="">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="mailadd" class="form-control" required placeholder="Email*" id="email"/>
+              </div>
+              <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="Password" name="pass" class="form-control" required placeholder="Password*" id="Password"/>
+              </div>
+              <p class="forgot"><a href="#">Forgot Password?</a></p>
+              <button type="submit" class="logbtn">LOG IN</button>
+            </form>
+          </div>
+          <!-- End of Login Section -->
+        </div>
+  </form>
+<!-- End of tab section -->
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
