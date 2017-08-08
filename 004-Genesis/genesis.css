@@ -1,0 +1,210 @@
+/*   ------------------------------------------ custom CSS ------------------------------------------------------  */
+
+body{
+	background-color: #cccccc;
+}
+.nextitems li a{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+}
+.nextitems li:hover{
+	background-color: #D70004;
+	color: white;
+}
+.my-profile li:last-child{
+	border:none;
+}
+.my-profile li:hover{
+	font-size: 15px;
+	font-weight: bold;
+}
+.dig{ width: 8px; margin-right: 15px;}
+.rd { color: red; }
+.nextitems a:hover{
+	color: white;
+	font-weight: bold;
+}
+.collapse .nextitems .active a{background-color: #D70004;}
+.wrapper{
+	background-color: white;
+	margin: 10px;
+	padding:0px;
+}
+.navbar{
+	background-color: black; 
+	border-bottom: 4px solid red;
+	margin-bottom: 0;
+}
+.text{
+	font-size: 19px;
+	padding: 20px;
+}
+.carousel-text{
+	text-align: center;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.creative{
+	background-color: black;
+	color:white;
+	width: 60%;
+	font-size: 30px;
+	margin: auto;
+	text-transform: uppercase;
+}
+.bld { font-weight: bold; }
+h4, h5, .it{ text-transform: uppercase; }
+.first .inn{background-color: #E2E2E2;}
+.first .carousel-control .glyphicon{background-color: black;}
+.first{margin-bottom: 5px;}
+.anim li{
+	background-color:black;
+	border: 1px solid black;
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+    opacity:0.2;
+}
+.carousel-control:hover,.carousel-control:focus{
+    opacity:0.2;
+}
+
+.feature{
+	margin: auto;
+	background-color: red;
+	border-radius: 100%;
+	width:70px;
+	height:70px;
+	line-height: 70px;
+	}
+.featurerow{
+	background-color: #f4f4f4;
+	text-align: center;border-top: 2px solid #CCCCCC;padding: 0;
+}
+.featurecol{
+	padding-top: 10px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px #CCCCCC;
+}
+.cara{
+	color:black;
+	opacity: 1;
+}
+.date{
+	background-color: #EF403D;
+	height: 60px;
+	width: 60px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+.date-foot{
+	padding: 4px 1px 3px 1px;
+	background-color: black;
+	font-size: 10px;
+}
+.date-foot ul{
+	list-style: none;
+}
+.date-row{
+	padding-top: 5px;
+	padding-bottom: 2px;
+	text-align: left;
+	display: -webkit-inline-box;
+}
+.arrow{
+	width:30px;	
+}
+.caro{ padding-top: 30px; padding-right: 2px;}
+.tab-container{
+  background-color: #ffffff;
+  padding: 0;
+}
+.strtab{
+	font-size: 10px;
+ 	padding: 0;
+ }
+ .lef, .rig{
+ 	padding-left: 25px;
+ }
+.lef .comment{font-size: 12px; }
+.it.active,.it.active:focus{
+	border-radius:4px 0 0 4px;
+	margin-right: -2px;
+	border:1px solid lightgrey;
+	border-top: 3px solid lightgrey;
+	border-right: none;
+	font-weight: bold;
+	background-color: white;
+	color:black;
+}
+.it{border:none;border-radius: 0;}
+
+.selected{color: white; background-color: grey; padding: 1px; border-radius: 4px;}
+.blockquotes{border-left: 5px solid #EEEEEE; padding-left: 20px; margin-top: 25px; font-weight: bold;}
+.tab-content:not(.active){
+  display: none;
+}
+.tab{
+	min-height: 170px;
+	border-left: 1px solid lightgrey;
+}
+.client .choose{padding-left: 20px;}
+.image{
+width: 100%;
+}
+.site_logo {margin-top: 20px;}
+.choose{
+padding: 16px 0;
+font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 5px;
+text-transform: uppercase;
+}
+.icon-bar{background-color:white;}
+.cl{padding: 5px 0px 5px 0px;}
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.inn .active.left { left: -100%; }
+	.inn .next        { left:  100%; }
+	.inn .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.inn .active.left { left: -50%; }
+	.inn .next        { left:  50%; }
+	.inn .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.inn .active.left { left: -25%; }
+	.inn .next        { left:  25%; }
+	.inn .prev		 { left: -25%; }	
+}
+
+
+/*
+.footer{color: grey; font-weight:normal; font-size:12px;padding-top: 3%; padding-bottom: 2%; background-color: #242424; margin-top: 10px; list-style: decimal-leading-zero;}
+.social_icons span{font-size: 20px; }
+.social_icons .fa{padding: 3%; background-color: lightgrey; border-radius: 100%; color: black;}
+.social_icons .fa-facebook{padding-left:4% !important; padding-right: 4% !important;}
+a{color: white;}
+a:hover{text-decoration: none; color:grey;}
+.post a{font-weight: normal;}
+.post{ border-bottom: 1px dotted black; padding: 2%;}
+.copyright{color: white; padding: 1% 1% 1% 1%; background-color: black; font-size: 10px;}
+*/
+/*   ------------------------------------------ End of custom CSS ------------------------------------------------------  */
