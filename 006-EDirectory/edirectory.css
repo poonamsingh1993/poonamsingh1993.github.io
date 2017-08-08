@@ -1,0 +1,85 @@
+/*   ------------------------------------------ custom CSS ------------------------------------------------------  */
+
+
+body, .icon-bar         { background-color: #F8F8F8; }
+.mynav					{ margin-bottom: 10px; border: 1px solid lightgrey; background-color: #F1F1F1;}
+.next                   { padding-left: 0; }
+.nextitems li:hover 	{ background-color: #c7c7c7; }
+.nextitems .active   	{ background-color: #c7c7c7; }
+.nextitems a:hover      { color: grey; font-weight: bold; }
+.nextitems a            { font-weight: bold; color: grey; text-shadow: 1px 1px white; text-transform: uppercase;}
+.lefty                  { padding-top: 0.5%; }
+.head , .footer         { background-color: #006699; }
+.headings               { font-weight: bold; font-size: 15px; color: grey; text-transform: uppercase;}
+.top-menu               { list-style: none; width: 45%;}
+.top-menu li            { display: inline-block; padding: 15px 15px 10px; }
+.top-menu a , 
+.footer a, .footer p    { color: white; }
+.form-group .btn:hover, 
+.form-control:hover, 
+.dropbutton:hover       { box-shadow: 5px 5px 2px #888888; transform: scale(1.04); transition: all .2s ease; background-color: white;}
+.dropdown .caret        { margin-top: 6px;}
+.searching				{ margin-top: -24px; }
+label					{ visibility: hidden; }
+.top-menu .fa 			{padding-right: 5px;}
+.arrow-left				{ width: 0; height: 0;  border-top: 10px solid transparent; border-bottom: 10px solid transparent;
+						              border-right:10px solid #477C1E; position: absolute; margin-left: -10px; height: 30px;}
+.dropbutton             { width: 100%; text-align: left; }
+.form-group, .deals     { padding: 2%; }
+.subm		            { color: white; background-color: #ED9C28; width: 100%; font-size: 12px; font-weight: normal; }
+.carousel-indicators li { background-color: black; border: 1px solid black; }
+.search        	        { background-color: #EEEEEE; border: 1px solid lightgrey; border-radius: 4px; }
+nav                     { background-color: lightgrey; }
+a:hover                 { text-decoration: none; color: lightgrey;}
+.subpanel               { background-color: white; padding: 10px; margin-bottom: 20px; margin-top: 20px; border: 1px solid lightgrey; border-radius: 4px; }
+.borderbottom           { border-bottom: 1px solid #CCCCCC;}
+.product_listing img    { width: 100%; vertical-align: middle;}
+.owl-nav                { display: none; }
+.owl-dots               { display: block; }
+.search .form-group     { padding-left: 25px; margin: auto; }
+.sub2                   { padding: 5px; padding-bottom: 0; }
+.sub1                   { margin: 0; border-bottom: 4px solid lightgrey; }
+.owl-here	            { padding-top: 15px; }
+.topic, 
+.product_listing .item .title, .bld { font-weight: bold; }
+.item a, p a            { color: black; }
+p                       { color: grey; font-size: 12px; }
+.deal-tag-info          { position: absolute; top: 0; z-index: 1;}
+.featured-item span 	{ display: block; }
+.cardeal                { padding-top: 20px; }
+.cardeal .featured-item .deal-des {padding-left: 25px;}
+.car img, .car p        { width: 80%; float: right; }
+.deal-tag               { background-color: #477C1E; width: 55px; padding: 5px; color: white; font-weight: bold; text-align: center; }
+.other_info .deal-tag   { float: left; margin-right: 10px; }
+.articles .featured-item { padding-top: 20px; }
+.other_info             { padding-top: 15px; }
+.other_info span 		{ display: block; }
+.other_info .item p     { padding-left: 5px; }
+.product_listing .item .subinfo { font-size: 12px; }
+.featured-item .stock   { margin-right: 10px; }
+.articles               { padding: 5px;}
+.media .fa-star, 
+.media .fa-star-half    {color: #EBE139;}
+.who                    {font-size: 12px; border-left: 2px solid grey; padding-left: 10px;}
+.reviews-item           {border-bottom: 1px solid lightgrey; padding-top: 10px;}
+.rightpanel             {padding-left: 35px;}
+.rightpanel .sub1       {font-weight: bold; margin-bottom: 10px; text-transform: uppercase;}
+.footer .row            {margin: 0; padding: 10px 60px; color: white;}
+.footer ul              { list-style: none; padding-left: 0;}
+.footer h5              {line-height: 25px;}
+.footer h4              {font-weight: bold;}
+/*.footer li a:before     {content:"\f0c8"; color: white; margin-right: 6px; font-family: FontAwesome;}*/
+.fa-square				{margin-right: 6px;}
+.social_icons span      {font-size: 20px; }
+.social_icons .fa       {padding: 7px; border-radius: 100%;}
+.social_icons .fa-facebook {padding-left:10px ; padding-right: 10px; background-color: grey;}
+.social_icons .fa-twitter {background-color: #40CDDA;}
+.social_icons .fa-rss   {background-color: #F2861D;}
+.social_icons .fa-vimeo {background-color: #FF0084;}
+.social_icons .fa:hover {transition: transform 1s ease; transform: rotate(360deg) scale(2); background: transparent; margin: 0px 5px 0px 5px;}
+.rightpanel .no         {color: grey; padding-left: 5px;}
+.rightpanel a           {color: black; font-weight: bold;}
+.panel-heading a        {font-size: 20px; color: grey; padding-left: 5px; padding-right: 200px;}
+/*   ------------------------------------------ End of custom CSS ------------------------------------------------------  */
+
+
