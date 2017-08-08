@@ -1,0 +1,167 @@
+
+
+/*   ------------------------------------------ custom CSS ------------------------------------------------------  */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20px;
+}
+.top , .next , .onlytext{
+	background-color: white;
+}
+.onlytext{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.home{
+	background-image: url("images/pink_shoes.jpg");
+	margin-top: -20px;
+}
+.home .text{
+	background-color: black;
+	opacity: 0.6;
+}
+.bld{ font-weight: bold; }
+h2{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h2, .home h4{
+	color: white;
+}
+.search input{
+	border-radius: 20px;
+	border-right: none;
+	box-shadow: none;
+}
+.search span{
+	border-bottom-right-radius:50%;
+	border-top-right-radius: 50%; 
+	background-color: transparent;
+	border-left: none;
+	color: lightgrey;
+}
+.my-profile, .items{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.my-profile li, .items li{
+    display: inline-block;
+    border-right: 1px solid #eee;
+    padding: 5px 12px;
+}
+.nextitems li a{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.nextitems li:hover{
+	background-color: #D70004;
+	color: white;
+}
+.my-profile li:last-child{
+	border:none;
+}
+.my-profile li:hover{
+	font-size: 15px;
+	font-weight: bold;
+}
+.collapse .nextitems li a:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*a:hover{
+	text-decoration: none !important;
+}*/
+.my-profile a{
+    color: black;
+}
+.top{
+	margin: 0;
+	border-radius: 0px;
+	padding-top: 5px;
+}
+/*.container{
+	margin-top: 20px;
+	border-radius: 0px;
+}*/
+.profile{
+	margin-top: 2px;
+}
+.next{
+	border-bottom: 5px solid #D70004;
+}
+.products{
+	background-color: white;
+	border-top: 1px solid grey;
+	box-shadow: 0 -5px 5px -5px #333;
+}
+.products1{
+	background-color: white;
+}
+.title{padding: 10px; text-transform: uppercase;}
+.title h4{ width: 100%; font-weight: bold; color:black;}
+.title .bld{color:red;}
+.title .pull-right{width:70px;}
+.fa-chevron-left, .fa-chevron-right{
+	padding:5px;
+	background-color: lightgrey;
+	margin:3px;
+}
+.title span{ display: inline-block; }
+.highlights{width: 50%; padding-left: 40px;}
+.clients{background-color: white; padding-top: 30px; padding-bottom: 30px;}
+.clients img{width:100%;}
+.footer{color: white; padding-top: 20px; padding-bottom: 20px; background-color: #242424;}
+.navi>li>a {color: white;}
+.social_icons span{font-size: 20px; }
+.social_icons .fa{padding: 12px; background-color: lightgrey; border-radius: 100%; color: black;}
+.social_icons .fa-facebook{padding-left:16px; padding-right: 16px;}
+.carousel img{height:300px; width: 100%;}
+.it div{background-color: lightgrey;}
+.featurerow{
+	background-color: white;
+text-align: center;border-top: 2px solid #CCCCCC;padding: 0;
+}
+.featurecol{
+padding-top: 10px;
+}
+.featurecol h4{ text-transform: uppercase; }
+.feature{
+margin: auto;
+background-color: #D70004;
+border-radius: 100%;
+width:70px;
+height:70px;
+line-height: 70px;
+}
+.copyright{color: white; padding: 10px; text-transform: uppercase;}
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.highlights{width: 100%;}
+	.nextitems li{float: left;}
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+	.highlights{width: 100%;}
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		 { left: -25%; }	
+}
+
+
+/*   ------------------------------------------ End of custom CSS ------------------------------------------------------  */
