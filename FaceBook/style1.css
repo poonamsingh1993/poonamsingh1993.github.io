@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+}
+body{ 
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: url(bg.jpg); 
+}
+
+.registration_box {
+	background: #FBFCFD; 
+	padding: 10px; 
+	width: 490px; 
+	margin: 4% auto 0 auto; 
+}
+
+.registration_form { 
+	padding: 5px; 
+	border: 1px solid #FBFCFD;
+}
+
+.registration_header { 
+	height: 25px; 
+}
+
+.regform { 
+	margin: 10px auto; 
+	text-align:center; 
+}
+
+.registration_box h2 {
+	font-size: 30px; 
+	font-weight: normal;
+}
+
+.registration_box input.mini { 
+	width:195px; 
+}
+
+.registration_box input { 
+	padding: 12px 10px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 15px; 
+	border: 1px solid #ccc; 
+	width: 420px;  
+	outline: none; 
+	margin: 7px 0 5px 0;
+}
+.registration_box button { 
+	background: #5870A8; 
+	padding: 10px 20px; 
+	font-size: 18px; 
+	border: 1px solid #1D3871; 
+	letter-spacing: 1px; 
+	color: #fff; 
+	width: 440px; 
+	height:50px; 
+	font-family:Helvetica, Arial, sans-serif;
+	box-shadow: 1px 1px 1px 1px #1D3871;
+	margin: 7px 0 5px 0;
+}
+
+input, button { 
+	border-radius: 5px; 
+}
+.title { 
+	font-family:Helvetica, Arial, sans-serif; 
+	color:#8E989E; 
+	font-weight:normal; 
+	text-align:center; 
+	padding-top:8px;
+	font-size:16px; 
+}
+
+.navbar {
+	background:#45619D;
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar-header {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1000px;
+	height:70px;
+}
+
+
+.brand a{
+	position: absolute;
+	top: 20px;
+	font-size:23px; font-weight:bold; color:#FFF;
+	text-decoration:none;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#login_form .inputtext {
+	height:16px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding: 5px 8px 5px 8px;
+	width: 166px;
+	border:1px solid #3A518A;
+}
+
+#login_form .inputtext:hover {
+	border: 1px solid silver;
+}
+
+#login_form {
+	padding: 7px 6px 4px 4px;
+	position: absolute;
+	float: right;
+	position: relative;
+	color: #fff;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.fbbutton { 
+	border:1px solid #1D3871; 
+	width:94px; 
+	font-size:14px; 
+	line-height:25px; 
+	color:#fff;
+	background-color:#637BAD;
+ }
+
+.fbbutton:hover{
+	box-shadow: 0 0 5px 2px #1D3871 inset;
+}

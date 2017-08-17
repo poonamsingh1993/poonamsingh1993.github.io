@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <title>Facebook Login/registration</title>
+    <link rel="stylesheet" href="style1.css" type="text/css" />
+  </head>
+
+<body>
+<div class="navbar">
+  <div class="navbar-header">
+    <div class="brand"> <a href="#">Facebook</a> </div>
+      <form id="login_form">
+          <table border="0" >
+            <tr>
+              <td ><input type="text" id="email" placeholder="Email or Phone" name="email" class="inputtext" value=""></td>
+              <td ><input type="password" id="pass" placeholder="Password" name="pass" class="inputtext" ></td>
+              <td ><input type="submit" class="fbbutton" nam e="login" value="Login" /></td>
+            </tr>
+            <tr>
+              <td><label><input id="chkbox" type="checkbox" name="chk" value="1" checked="1"/><span style="color:#ccc;">Keep me logged in</span></label>
+            </td>
+              <td><label><a href="" style="color:#ccc; text-decoration:none">forgot your password?</a></label></td>
+            </tr>
+          </table>
+      </form>
+  </div>
+</div>
+
+<div class="registration_box">
+  <h2 style="color:#141823; text-align:center;">Welcome to Facebook</h2>
+	  <div class="registration_form">
+    	<div class="registration_header">
+    		<h4 class="title">Connect with friends and the world around you.</h4>
+    	</div>
+      <div class="regform">
+        <form id="login" action="" method="post">
+                <div>
+                    <input type="text" id="username" name="username" placeholder="First Name" value="" class="radius mini" /> <input type="text" id="username" name="username" placeholder="Last Name" value="" class="radius mini" />
+                </div>
+            	  <div>
+                    <input type="text" id="username" name="username" placeholder="Your Email" value="" class="radius" />
+                </div>
+                <div>
+                    <input type="text" id="password" name="password" placeholder="Re-enter Email" class="radius" />
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="New Password" class="radius" />
+                </div></br>
+                <div>
+                	<button class="radius title" name="client_login">Sign Up for Facebook</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
