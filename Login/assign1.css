@@ -89,7 +89,10 @@ input{
     border: none;
     box-shadow: none;
 }
-input:hover,input:focus, .Rounded-Rectangle-1:hover{outline: none; border:none;} 
+input:hover,input:focus, .Rounded-Rectangle-1:hover {
+    outline: none;
+    border: 1px solid transparent;
+}
 .Rounded-Rectangle-1 {
     font-size: 18px;
     color: #fcfcfc;
